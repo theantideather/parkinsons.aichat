@@ -6,7 +6,7 @@ import { Noto_Sans_Gujarati } from 'next/font/google'
 import { SWRegister } from '../components/SWRegister'
 
 export const metadata: Metadata = {
-  title: 'Parkinson\'s Communication Helper',
+  title: 'Mahesh Bhai\'s Communication Helper',
   description: 'Bilingual touch communication app for care needs',
   manifest: '/manifest.webmanifest',
   icons: [{ rel: 'icon', url: '/icon-192.png' }]

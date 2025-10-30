@@ -40,7 +40,7 @@ export default function HomePage() {
     <main className="max-w-6xl mx-auto">
       <header className="p-6 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-wide">
-          Parkinson's Communication Helper
+          Mahesh Bhai's Communication Helper
         </h1>
         <p className="opacity-80 mt-2 text-base">English + Gujarati, large touch buttons</p>
       </header>
