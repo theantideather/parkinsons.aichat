@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply text-white antialiased;
+  font-family: var(--font-inter), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.focus-ring {
+  @apply outline-none ring-4 ring-offset-2 ring-offset-black ring-accent;
+}
+
+/* Gujarati font stack for elements marked with lang="gu-IN" */
+[lang="gu-IN"], .font-gu {
+  font-family: var(--font-noto-gu), Noto Sans Gujarati, var(--font-inter), system-ui, sans-serif;
+}
+
+/* Futuristic button base */
+.btn-surface {
+  @apply bg-zinc-900/70 border border-zinc-700/70 backdrop-blur-md shadow-[0_0_0_1px_rgba(255,255,255,0.03)] hover:bg-zinc-800/80 transition-colors;
+}
+
+.btn-glow {
+  box-shadow: 0 0 0 rgba(10,132,255,0);
+  transition: box-shadow .2s ease;
+}
+.btn-glow:hover { box-shadow: 0 0 0 3px rgba(10,132,255,0.25); }
+.btn-glow:active { box-shadow: 0 0 0 4px rgba(255,204,0,0.35); }
+
+
